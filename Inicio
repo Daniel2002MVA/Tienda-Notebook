@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tienda Minimal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Tienda Minimal</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#disenos">Diseños</a></li>
+        <li><a href="#gamer">Gamer</a></li>
+        <li><a href="#hogar">Hogar</a></li>
+        <li><a href="#ofertas">Ofertas</a></li>
+        <li><a href="#metodo">Método de Pago</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenido a la Tienda</h2>
+    <p>Explora nuestras categorías exclusivas</p>
+  </section>
+
+  <section id="disenos">
+    <h2>Diseños</h2>
+    <div class="productos">
+      <!-- Productos de diseños -->
+    </div>
+  </section>
+
+  <section id="gamer">
+    <h2>Gamer</h2>
+    <div class="productos">
+      <!-- Productos gamer -->
+    </div>
+  </section>
+
+  <section id="hogar">
+    <h2>Hogar</h2>
+    <div class="productos">
+      <!-- Productos de hogar -->
+    </div>
+  </section>
+
+  <section id="ofertas">
+    <h2>Ofertas</h2>
+    <div class="productos">
+      <!-- Productos en oferta -->
+    </div>
+  </section>
+
+  <section id="metodo">
+    <h2>Método de Pago</h2>
+    <p>Aceptamos tarjetas, MercadoPago y transferencias.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo" required />
+      <textarea placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tienda Minimal</p>
+  </footer>
+</body>
+</html>
